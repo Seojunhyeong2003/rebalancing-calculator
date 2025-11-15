@@ -1,76 +1,13 @@
-# Nuxt Minimal Starter
+# 리밸런싱 자동 계산기
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+기존의 리밸런싱 계산기는 귀찮게 일일히 검색해서 넣어햐 합니다. (매우 귀찮음)<br>
+BUT!! 이 프로젝트는 증권화면 캡쳐를 통해 자동으로 주식목록을 불러옵니다! (딸깍)
 
 ## Setup
 
-Make sure to install dependencies:
+npm 사용합니다
 
-```bash
+```아래를 무작정 붙여넣으시오!!!
 # npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm install && npm run dev
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# rebalancing-calculator
