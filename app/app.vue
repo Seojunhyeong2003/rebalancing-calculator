@@ -138,7 +138,7 @@
                                     </div>
                                     <div class="py-1 px-3 rounded-full border border-[#DABCB2]">
                                         <p class="text-white text-xs">
-                                            마이크로소프트
+                                            일라이 릴리
                                         </p>
                                     </div>
                                 </div>
