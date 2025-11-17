@@ -112,13 +112,7 @@
                             <p class="text-lg font-semibold text-white">
                                 종목 검색
                             </p>
-                            <input
-                                type="text"
-                                placeholder="개별 종목을 검색하세요"
-                                class="h-[40px] w-full rounded-xl flex items-center justify-center bg-[#DABCB2] px-5
-                                text-xl text-white placeholder:text-xl
-                                shadow-[0_4px_4px_rgba(0,0,0,0.25)] focus:outline-none focus:ring-0 focus:border-none focus-visible:outline-none focus-visible:ring-0"
-                            />
+                            <stock-search />
                             <div class="mt-2">
                                 <div class="flex flex-row space-x-1">
                                     <div class="py-1 px-3 rounded-full border border-[#DABCB2]">
