@@ -9,6 +9,9 @@ dist
 # Node dependencies
 node_modules
 
+# csv 빼고
+data/*.csv
+
 # Logs
 logs
 *.log
