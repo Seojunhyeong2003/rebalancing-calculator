@@ -7,7 +7,3 @@
         </nav>
     </header>
 </template>
-
-<script setup>
-
-</script>
