@@ -57,8 +57,16 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="flex-1 border-dashed border-1 rounded-3xl border-[#34312F] bg-[#AEA19D]">
-
+                        <div class="flex-1 flex flex-col items-center justify-center border-dashed border-1 rounded-3xl border-[#34312F] bg-[#AEA19D] space-y-2">
+                            <image-upload-icon class="h-14 w-14"/>
+                            <div class="flex flex-col items-center">
+                                <p class="text-lg font-medium text-white">
+                                    Drag & Drop Or Click to Upload
+                                </p>
+                                <p class="text-xs text-white">
+                                    이미지를 드래그 또는 클릭하여 업로드하세요
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,7 +113,7 @@
                                 shadow-[0_4px_4px_rgba(0,0,0,0.25)] focus:outline-none focus:ring-0 focus:border-none focus-visible:outline-none focus-visible:ring-0"
                             />
                             <p class="text-white text-xl font-semibold">
-                                보유 현금 : 3,000,000 원
+                                보유 현금 : 0 원
                             </p>
                         </div>
                         <div class="flex flex-col w-full">
@@ -258,6 +266,7 @@ import MainHeader from "~/components/main-header.vue";
 import dayjs from 'dayjs'
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import RawCheckIcon from "~/components/icons/raw-check-icon.vue";
+import ImageUploadIcon from "~/components/icons/image-upload-icon.vue";
 
 const time = ref(dayjs().format('HH:mm'))
 

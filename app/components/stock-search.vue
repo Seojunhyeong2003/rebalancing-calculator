@@ -129,6 +129,4 @@ const search = async () => {
         pending.value = false
     }
 }
-
-const formatPrice = (n: number) => n.toFixed(2)
 </script>
