@@ -3,7 +3,7 @@ version: '3.8'
 services:
   nuxt:
     build: .
-    container_name: nuxt_app
+    container_name: balangom
     restart: unless-stopped
     environment:
       - NITRO_PORT=3000
