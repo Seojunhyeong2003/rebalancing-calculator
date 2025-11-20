@@ -13,6 +13,11 @@ export default defineNuxtConfig({
             supabaseUrl: process.env.SUPABASE_URL, // 필요하면
         },
     },
+    nitro: {
+        externals: {
+            inline: ['@supabase/supabase-js'],
+        },
+    },
     vite: {
         plugins: [
             tailwindcss(),

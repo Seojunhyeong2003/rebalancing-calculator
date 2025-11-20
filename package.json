@@ -11,7 +11,7 @@
     "import:us-stocks": "node scripts/import-us-stocks.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.81.1",
+    "@supabase/supabase-js": "^2.84.0",
     "@tailwindcss/vite": "^4.1.17",
     "dayjs": "^1.11.19",
     "dotenv": "^17.2.3",
